@@ -1,0 +1,98 @@
+body{
+    /* background-color: rgb(48, 16, 165); */
+    background-color: #e5ddd5;
+    font-family: Arial, sans-serif; 
+    
+     background: #075e54;
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+header{
+    /* border: 2px solid blue; */
+    display: block;
+      background: #28363e;
+    font-size: 30px;
+    height: 50px;
+    text-align: center;
+    /* position: fixed; */
+    position: fixed;
+      top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding-top: 10px;
+    
+    
+}
+
+
+.chat{
+    background-color: rgb(0, 255, 238);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 500px;
+    margin-bottom:20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+
+
+  cursor: pointer;
+   
+    
+}
+.chat:hover{
+    transform:translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+
+}
+.msg{
+    background-color: #008346;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: rgb(9, 60, 104);
+    border-radius: 5px;
+    padding: 1px;
+    text-align: center;
+   
+}
+
+.from, .to{
+  padding-top: 20px;
+  color:  #075e54;
+
+}
+
+i{
+    color: rgb(0, 112, 164);
+}
+.date{
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 10px;
+}
+button{
+    border: none;
+    padding: 5px;
+    border-radius:5px;
+    background-color: rgb(4, 82, 85);
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.btn-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 4px;
+}
+.edit{
+    padding: 10px;
+    width: 70px;;
+}
