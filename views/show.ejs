@@ -22,8 +22,8 @@
                 <form method="get" action="/chats/<%= chat._id %>/edit">
                     <button class="edit">edit</button>
                 </form>
-                <form method="post" action="/chats/<%= chat._id %>?_method=delete">
-               <button class="edit">delete</button>
+                <form class="delete-form" method="post" action="/chats/<%= chat._id %>?_method=delete">
+               <button class="edit" id="delete">delete</button>
                </div>
            </form>
             </div>
@@ -33,5 +33,6 @@
         </div>
     <%  }%> 
    </div> 
+   <script src="/delete.js"></script>
 </body>
 </html>
